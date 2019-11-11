@@ -7,13 +7,13 @@ import Posts from "./components/Posts";
 
 function App() {
   return (
-    <div className="App">
-      <Provider store={store}>
+    <Provider store={store}>
+      <div className="App">
         <PostForm />
         <hr />
         <Posts />
-      </Provider>
-    </div>
+      </div>
+    </Provider>
   );
 }
 
